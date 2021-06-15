@@ -20,25 +20,46 @@ header .info_bar .info_right .fa-twitter {
   margin: 0 1rem;
 }
 
-.nav_main {
+.jumbo {
+  position: relative;
+  width: 100%;
+}
+.jumbo .jumbo_bg {
+  position: absolute;
+}
+.jumbo .jumbo_bg img {
+  width: 100%;
+}
+.jumbo .nav_main {
   width: 80%;
   margin: auto;
   padding: 3rem 0;
-}
-.nav_main .nav_main_left {
   position: relative;
 }
-.nav_main .nav_main_left .nex {
+.jumbo .nav_main .img {
+  position: absolute;
+}
+.jumbo .nav_main .nav_main_left {
+  position: relative;
+}
+.jumbo .nav_main .nav_main_left .nex {
   color: #51bdbc;
   font-weight: bold;
   font-size: 25px;
 }
-.nav_main .nav_main_left .nex .nex_bg {
+.jumbo .nav_main .nav_main_left .gen {
+  margin-left: 5px;
+  color: #babdbe;
+  font-weight: bold;
+  font-size: 25px;
+}
+.jumbo .nav_main .nav_main_left .nex_bg {
   position: absolute;
   background-color: #038483;
   border-radius: 20px 0 0 20px;
-  padding: 0.5rem 0 0.5rem 2rem;
-  opacity: 0.5;
-  width: 500px;
-  height: 100px;
+  opacity: 0.3;
+  width: 90px;
+  height: 50px;
+  left: -35px;
+  top: -5px;
 }
