@@ -1,0 +1,23 @@
+.nav_main {
+    @include center-section;
+    padding: 3rem 0;
+    .nav_main_left {
+        position: relative;
+        .nex {
+            color: $fountain-blue;
+            font-weight: bold;
+            font-size: 25px;
+
+            .nex_bg {
+                position: absolute;
+                background-color: $blue-lagoon;
+                border-radius: 20px 0 0 20px;
+                padding: 0.5rem 0 0.5rem 2rem;
+                opacity: 0.5;
+                width: 500px;
+                height: 100px;
+            }
+            
+        }
+    }
+}

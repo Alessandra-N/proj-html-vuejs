@@ -1,0 +1,22 @@
+header {
+    color: $silver-sand;
+    background-color: $nav-blue;
+
+    .info_bar {
+        @include center-section;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .info_right {
+            display: flex;
+            .info_email {
+                margin: 0 2rem;
+            }
+            .fa-twitter {
+                margin: 0 1rem;
+            }
+        }    
+    }
+}

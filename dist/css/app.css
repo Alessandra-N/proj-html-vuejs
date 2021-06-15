@@ -1,0 +1,44 @@
+header {
+  color: #babdbe;
+  background-color: #21333e;
+}
+header .info_bar {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .info_bar .info_right {
+  display: flex;
+}
+header .info_bar .info_right .info_email {
+  margin: 0 2rem;
+}
+header .info_bar .info_right .fa-twitter {
+  margin: 0 1rem;
+}
+
+.nav_main {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+}
+.nav_main .nav_main_left {
+  position: relative;
+}
+.nav_main .nav_main_left .nex {
+  color: #51bdbc;
+  font-weight: bold;
+  font-size: 25px;
+}
+.nav_main .nav_main_left .nex .nex_bg {
+  position: absolute;
+  background-color: #038483;
+  border-radius: 20px 0 0 20px;
+  padding: 0.5rem 0 0.5rem 2rem;
+  opacity: 0.5;
+  width: 500px;
+  height: 100px;
+}
