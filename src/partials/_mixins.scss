@@ -4,10 +4,21 @@
     margin: auto;
 }
 
+/* Luinks */
+@mixin links {
+    .nav_links {
+        display: inline-block;
+        a {
+            color: $silver-sand;
+            margin-left: 2.5rem;
+        }
+    }
+}
+
 /* Texts */
 @mixin upper-bold {
     text-transform: uppercase;
-    font-weight:600;
+    font-weight: 600;
 }
 @mixin green-title {
     font-size: 16px;
@@ -19,6 +30,11 @@
     color: $ebony-clay;
     font-size: 30px;
     font-weight: bold;
+}
+@mixin white-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: $white;
 }
 @mixin section-title {
     font-size: 50px;

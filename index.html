@@ -66,7 +66,7 @@
                         </div>
         
                         <div class="nav_main_right">
-                            <div class="jumbo_links" v-for="jumboLink in jumboLinks">
+                            <div class="nav_links" v-for="jumboLink in jumboLinks">
                                 <a href="#">{{jumboLink}}</a>
                             </div>
                             <i class="far fa-user"></i>
@@ -156,7 +156,37 @@
                         <div class="col-6 image">
                             <img src="./dist/img/about-5.jpg" alt="">
                         </div>
-                        
+
+                    </div>
+
+                    <div class="circles">
+                        <i class="fas fa-circle" v-for="circle in 36"></i>
+                    </div>
+                    
+                </section>
+
+                <section class="action">
+                    
+                    <div class="action_top">
+                        <h2>We do more for everyone</h2>
+                        <h1>
+                            Actions &
+                            <span>Projects</span>
+                        </h1>
+
+                        <nav class="action_nav nav_links">
+                            <a href="" v-for="actionLink in actionLinks">
+                                {{actionLink}}
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="action_gallery">
+                        <div class="action_picture" v-for="picture in actionGallery">
+                            <img :src="'./dist/img/project-'+picture.picLink" alt="">
+                            <h5>{{picture.picText}}</h5>
+                        </div>
+
                     </div>
 
                 </section>

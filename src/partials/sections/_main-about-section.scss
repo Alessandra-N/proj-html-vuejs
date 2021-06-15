@@ -1,62 +1,65 @@
 .about {
     @include center-section;
-        .row {
-            display: flex;
-            justify-content: space-between;
-            .about_company {
-                padding: 5rem 3rem 5rem 0;
-                h2 {
-                    @include green-title;
+    position: relative;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .about_company {
+            padding: 5rem 3rem 0 0;
+            h2 {
+                @include green-title;
+            }
+            h1 {
+                @include section-title;
+                .title_first {  
+                    @include section-title-first
                 }
-                h1 {
-                    @include section-title;
-                    .title_first {
-                        @include section-title-first
-                    }
-                    color: $nav-blue;
-                }
-                p {
-                    @include section-paragraph;
-                }
-                .counter {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 3rem;
-                    .counter_box {
-                        
-                        .counter_number {
-                            color: $blue-lagoon;
-                            font-size: 50px;
-                            font-weight: bold;
-                            padding-left: 2.5rem;
-                        }
-                        .counter_type {
-                            @include ebony-title;
-                            margin: 1rem 0;
-                        }
-                    }
-                }
-                .buttons {
-                    display: flex;
-                    margin: 4rem 0 10rem;
-                    :first-child {
-                        @include get-in-touch;
-                        @include upper-bold;
-                        margin-right: 1rem;
-                    }
-                    :nth-child(2) {
-                        @include read-more;
-                        @include upper-bold;
+                color: $nav-blue;
+            }
+            p {
+                @include section-paragraph;
+            }
+            .counter {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 3rem;
+                .counter_box {
+                    
+                    .counter_number {
                         color: $blue-lagoon;
+                        font-size: 50px;
+                        font-weight: bold;
+                        padding-left: 2.5rem;
+                    }
+                    .counter_type {
+                        @include ebony-title;
+                        margin: 1rem 0;
                     }
                 }
-                
             }
-            img {
-                object-fit:cover;
-                position: absolute;
-                z-index: 0;
+            .buttons {
+                display: flex;
+                margin: 4rem 0 10rem;
+                :first-child {
+                    @include get-in-touch;
+                    @include upper-bold;
+                    margin-right: 1rem;
+                }
+                :nth-child(2) {
+                    @include read-more;
+                    @include upper-bold;
+                    color: $blue-lagoon;
+                }
             }
+            
         }
-        @include circles;
+        
+    }
+    img {
+        width: 120%;
+        object-fit:contain;
+        position: absolute;
+        z-index: 0;
+    }
+    @include circles;    
 }

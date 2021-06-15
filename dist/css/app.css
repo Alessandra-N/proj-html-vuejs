@@ -1,4 +1,5 @@
 /* Common */
+/* Luinks */
 /* Texts */
 /* Buttons */
 /* Decorations */
@@ -136,12 +137,12 @@ header .info_bar .info_right .fa-twitter {
   font-size: 22px;
   color: #babdbe;
 }
-.jumbo_nav .nav_main_right .jumbo_links {
+.jumbo_nav .nav_main_right .nav_links {
   display: inline-block;
 }
-.jumbo_nav .nav_main_right .jumbo_links a {
+.jumbo_nav .nav_main_right .nav_links a {
   color: #babdbe;
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 }
 .jumbo_nav .nav_main_right i {
   margin: 0 2rem;
@@ -208,13 +209,14 @@ header .info_bar .info_right .fa-twitter {
 .about {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 .about .row {
   display: flex;
   justify-content: space-between;
 }
 .about .row .about_company {
-  padding: 5rem 3rem 5rem 0;
+  padding: 5rem 3rem 0 0;
 }
 .about .row .about_company h2 {
   font-size: 16px;
@@ -279,9 +281,10 @@ header .info_bar .info_right .fa-twitter {
   font-weight: 600;
   color: #038483;
 }
-.about .row img {
-  -o-object-fit: cover;
-     object-fit: cover;
+.about img {
+  width: 120%;
+  -o-object-fit: contain;
+     object-fit: contain;
   position: absolute;
   z-index: 0;
 }
@@ -298,4 +301,65 @@ header .info_bar .info_right .fa-twitter {
   font-size: 12px;
   margin: 0 0.3rem;
   opacity: 0.4;
+}
+
+.action {
+  background-color: #121117;
+  padding: 10rem 0;
+  text-align: center;
+}
+.action .action_top {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.action .action_top h2 {
+  font-size: 16px;
+  color: #51bdbc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.action .action_top h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 3rem 0;
+  color: #ffffff;
+}
+.action .action_top h1 span {
+  padding: 0 0.5rem;
+  background-color: #143230;
+  border-radius: 5px;
+}
+.action .action_top .nav_links {
+  display: inline-block;
+}
+.action .action_top .nav_links a {
+  color: #babdbe;
+  margin-left: 2.5rem;
+}
+.action .action_gallery {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.action .action_gallery :nth-child(2), .action .action_gallery :nth-child(5) {
+  margin: 2rem;
+}
+.action .action_gallery .action_picture {
+  position: relative;
+  width: calc(100% / 3 - 6rem);
+}
+.action .action_gallery .action_picture img {
+  width: 100%;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+.action .action_gallery .action_picture h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  bottom: 1.5rem;
 }

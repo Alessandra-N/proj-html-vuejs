@@ -10,6 +10,43 @@ const app = new Vue ({
             "Testimonials",
         ],
 
+        actionLinks:[
+            "All",
+            "Institutional",
+            "social",
+            "events",
+            "innovation",
+            "environment",
+            "technology",
+        ],
+
+        actionGallery: [
+            {
+                picLink: "1.jpg",
+                picText: "Academic professional program in social media"
+            },
+            {
+                picLink: "2.jpg",
+                picText: "President's speech at the annual meeting"
+            },
+            {
+                picLink: "3.jpg",
+                picText: "International business trip in Shangai"
+            },
+            {
+                picLink: "4.jpg",
+                picText: "Technology workshop with education theme"
+            },
+            {
+                picLink: "5.jpg",
+                picText: "Donation of clothes and food to the partner NGO"
+            },
+            {
+                picLink: "6.jpg",
+                picText: "Confraternization of the procurement team"
+            }
+        ],
+
         threeCards: [
             {
                 img: "fas fa-user-friends",

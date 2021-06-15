@@ -1,0 +1,47 @@
+.action {
+    background-color: $woodsmoke;
+    padding: 10rem 0;
+    text-align: center;
+    .action_top {
+        h2 {
+            @include green-title;
+        }
+        h1 {
+            @include section-title;
+            color: $white;
+            span {
+                padding: 0 0.5rem;
+                background-color: $dark-green;
+                border-radius: 5px;
+            }
+        }
+        @include links;
+        @include upper-bold;
+    }
+    
+    .action_gallery {
+        @include center-section;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        :nth-child(2), :nth-child(5) {
+            margin: 2rem;
+        }
+        .action_picture {
+            position: relative;
+            width: calc(100% / 3 - 6rem);
+            img {
+                width: 100%;
+                border-radius: 5px;
+                opacity: 0.5;
+            }
+            h5{
+                @include white-title;
+                position: absolute;
+                bottom: 1.5rem;
+            }
+        }
+       
+    }
+}
