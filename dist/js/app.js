@@ -26,13 +26,16 @@ var app = new Vue({
     }],
     subscribers: [{
       type: "Employees",
-      users: 0
+      users: 0,
+      content: "Lorem ipsum dolor sit amet."
     }, {
       type: "Partners",
-      users: 0
+      users: 0,
+      content: "Lorem ipsum dolor sit amet."
     }, {
       type: "Customers",
-      users: 0
+      users: 0,
+      content: "Lorem ipsum dolor sit amet."
     }]
   }
 });

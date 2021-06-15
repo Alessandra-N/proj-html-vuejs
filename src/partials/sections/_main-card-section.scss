@@ -19,8 +19,7 @@
                 border-radius: 50px;
             }
             .card_title {
-                color: $ebony-clay;
-                font-size: 30px;
+                @include ebony-title;
                 margin: 1.5rem 0;
             }
             .card_p {
@@ -28,18 +27,5 @@
             }            
         }
     }
-    .circles {
-        position: absolute;
-        color: $blue-lagoon;
-        bottom: -61px;
-        left: calc(50% - 100px);
-        padding: 1rem;
-        width: 230px;
-        z-index: 1;
-        i {
-            font-size: 12px;
-            margin: 0 0.3rem;
-            opacity: 0.4;
-        }
-    }
+    @include circles;
 }

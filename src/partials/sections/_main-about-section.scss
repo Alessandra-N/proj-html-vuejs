@@ -18,6 +18,38 @@
                 p {
                     @include section-paragraph;
                 }
+                .counter {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 3rem;
+                    .counter_box {
+                        
+                        .counter_number {
+                            color: $blue-lagoon;
+                            font-size: 50px;
+                            font-weight: bold;
+                            padding-left: 2.5rem;
+                        }
+                        .counter_type {
+                            @include ebony-title;
+                            margin: 1rem 0;
+                        }
+                    }
+                }
+                .buttons {
+                    display: flex;
+                    margin: 4rem 0 10rem;
+                    :first-child {
+                        @include get-in-touch;
+                        @include upper-bold;
+                        margin-right: 1rem;
+                    }
+                    :nth-child(2) {
+                        @include read-more;
+                        @include upper-bold;
+                        color: $blue-lagoon;
+                    }
+                }
                 
             }
             img {
@@ -26,10 +58,5 @@
                 z-index: 0;
             }
         }
-
-        
-        img {
-
-            z-index: 2;
-        }
+        @include circles;
 }
