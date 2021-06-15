@@ -1,3 +1,45 @@
-.card {
-    background-color: $silver-sand;
+.main_cards {
+    position: relative;
+    display: flex;
+    background-color: $gray-nurse;
+    padding: 10rem 0;
+    .cards_row {
+        @include center-section;
+        display: flex;
+        justify-content: space-between;
+        .card {
+            width: 30%;
+            padding: 3rem;
+            border-radius: 10px;
+            i {
+                color: $blue-lagoon;
+                background-color: $light-blue;
+                font-size: 35px;
+                padding: 1.2rem 1rem;
+                border-radius: 50px;
+            }
+            .card_title {
+                color: $ebony-clay;
+                font-size: 30px;
+                margin: 1.5rem 0;
+            }
+            .card_p {
+                color: $silver-sand;
+                font-size: 19px;
+            }            
+        }
+    }
+    .circles {
+        position: absolute;
+        color: $blue-lagoon;
+        bottom: -62px;
+        left: calc(50% - 125px);
+        padding: 1rem;
+        width: 250px;
+        i {
+            font-size: 12px;
+            margin: 0 0.3rem;
+            opacity: 0.6;
+        }
+    }
 }

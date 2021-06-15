@@ -102,9 +102,26 @@
 
                 </section>
 
-                <section class="card">
-                    <h1>hello</h1>
+                <section class="main_cards">
+
+                    <div class="cards_row">
+                        <span class="card" v-for="card in threeCards">
+
+                            <div class="card_logo">
+                                <i :class="card.img"></i>
+                            </div>
+                            <h2 class="card_title">{{card.title}}</h2>
+                            <p class="card_p">{{card.parag}}</p>
+    
+                        </span>
+                    </div>
+
+                    <div class="circles">
+                        <i class="fas fa-circle" v-for="circle in 36"></i>
+                    </div>
+                    
                 </section>
+
     
             </main>
 

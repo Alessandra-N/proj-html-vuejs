@@ -153,6 +153,49 @@ header .info_bar .info_right .fa-twitter {
   padding: 0.5rem 1.5rem;
 }
 
-.card {
-  background-color: #babdbe;
+.main_cards {
+  position: relative;
+  display: flex;
+  background-color: #e4eae6;
+  padding: 10rem 0;
+}
+.main_cards .cards_row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main_cards .cards_row .card {
+  width: 30%;
+  padding: 3rem;
+  border-radius: 10px;
+}
+.main_cards .cards_row .card i {
+  color: #038483;
+  background-color: #daeced;
+  font-size: 35px;
+  padding: 1.2rem 1rem;
+  border-radius: 50px;
+}
+.main_cards .cards_row .card .card_title {
+  color: #24343c;
+  font-size: 30px;
+  margin: 1.5rem 0;
+}
+.main_cards .cards_row .card .card_p {
+  color: #babdbe;
+  font-size: 19px;
+}
+.main_cards .circles {
+  position: absolute;
+  color: #038483;
+  bottom: -62px;
+  left: calc(50% - 125px);
+  padding: 1rem;
+  width: 250px;
+}
+.main_cards .circles i {
+  font-size: 12px;
+  margin: 0 0.3rem;
+  opacity: 0.6;
 }
