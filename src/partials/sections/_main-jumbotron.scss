@@ -1,71 +1,64 @@
 
 .jumbo {
-    position: relative;
+    background-color: black;
     width: 100%;
-
     .jumbo_bg {
-        position: absolute;
+        position: relative;
+        opacity: 0.5;
        img {
            width: 100%;
+           object-fit:cover;
+           position: absolute;
        }
     }
-    .nav_main {
+    
+    .jumbo_main {
         @include center-section;
-        padding: 3rem 0;
         position: relative;
-        display: flex;
-        justify-content: space-between;
-        .img {
-            position: absolute;
-        }
-        .nav_main_left {
-            position: relative;
-            .nex {
-                color: $fountain-blue;
-                font-weight: bold;
-                font-size: 25px;
+        padding: 5rem 0 11rem;
+        .jumbo_main_left {
+            width: 50%;
+            .jumbo_sub {
+                @include upper-bold;
+                color: $blue-lagoon;
             }
-            .gen {
-                margin-left: 5px;
-                color: $silver-sand;
-                font-weight: bold;
-                font-size: 25px;
-            }
-            .nex_bg {
-                position: absolute;
-                background-color: $blue-lagoon;
-                border-radius: 20px 0 0 20px;
-                opacity: 0.3;
-                width: 90px;
-                height: 50px;
-                left: -35px;
-                top: -5px;
-            }
-            
-        }
-        .nav_main_right {
-            @include upper-bold;
-            font-size: 22px;
-            color: $silver-sand;
-            .jumbo_links {
-                display: inline-block;
-                a {
-                    color: $silver-sand;
-                    margin-left: 2rem;
+            .jumbo_title {
+                position: relative;
+                .productivity_bg {
+                    position: absolute;
+                    top: 146px;
+                    left: 6px;
+                    height: 45px;
+                    width: 456px;
+                    background-color: $blue-lagoon;
+                    border-radius: 5px;
+                }
+                h1 {
+                    position: relative;
+                    font-size: 80px;
+                    font-weight: bold;
+                    color: $white;
                 }
             }
-            i {
-                margin: 0 2rem;
+            .jumbo_p {
+                font-size: 22px;
+                color: $silver-sand;
+                margin: 2rem 0;
             }
-            button {
-                @include upper-bold;
-                background-color: $blue-lagoon;
-                color: $gray-nurse;
-                border: none;
-                border-radius: 5px;
-                padding: 0.5rem 1.5rem;
+            .buttons {
+                display: flex;
+                :first-child {
+                    @include get-in-touch;
+                    @include upper-bold;
+                    margin-right: 1rem;
+                }
+                :nth-child(2) {
+                    @include read-more;
+                    @include upper-bold;
+                }
             }
         }
+        
     }
 
 }
