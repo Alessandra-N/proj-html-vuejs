@@ -189,13 +189,13 @@ header .info_bar .info_right .fa-twitter {
 .main_cards .circles {
   position: absolute;
   color: #038483;
-  bottom: -62px;
-  left: calc(50% - 125px);
+  bottom: -61px;
+  left: calc(50% - 100px);
   padding: 1rem;
-  width: 250px;
+  width: 230px;
 }
 .main_cards .circles i {
   font-size: 12px;
   margin: 0 0.3rem;
-  opacity: 0.6;
+  opacity: 0.4;
 }
