@@ -1,0 +1,35 @@
+.about {
+    @include center-section;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            .about_company {
+                padding: 5rem 3rem 5rem 0;
+                h2 {
+                    @include green-title;
+                }
+                h1 {
+                    @include section-title;
+                    .title_first {
+                        @include section-title-first
+                    }
+                    color: $nav-blue;
+                }
+                p {
+                    @include section-paragraph;
+                }
+                
+            }
+            img {
+                object-fit:cover;
+                position: absolute;
+                z-index: 0;
+            }
+        }
+
+        
+        img {
+
+            z-index: 2;
+        }
+}

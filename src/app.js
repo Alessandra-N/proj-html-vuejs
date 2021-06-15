@@ -26,6 +26,21 @@ const app = new Vue ({
                 title: "Performance",
                 parag: "Achieving maximum impact and value from investments in finance and supply chain",
             }
+        ],
+
+        subscribers: [
+            {
+                type: "Employees",
+                users: 0
+            },
+            {
+                type: "Partners",
+                users: 0
+            },
+            {
+                type: "Customers",
+                users: 0
+            }
         ]
     },
 

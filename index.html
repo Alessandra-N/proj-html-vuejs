@@ -122,6 +122,32 @@
                     
                 </section>
 
+                <section class="about">
+
+                    <div class="row">
+
+                        <div class="col-6 about_company">
+                            <h2>About the network</h2>
+                            <h1>
+                                <span class="title_first">The</span>
+                                Company
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut odit harum quasi dolorum dolor?</p>
+
+                            <div class="counter" v-for="subscriber in subscribers">
+                                {{subscriber.users}}
+                                {{subscriber.type}}
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-6 image">
+                            <img src="./dist/img/about-5.jpg" alt="">
+                        </div>
+                        
+                    </div>
+
+                </section>
     
             </main>
 

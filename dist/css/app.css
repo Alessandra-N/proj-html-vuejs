@@ -1,3 +1,5 @@
+/* Common */
+/* Texts */
 /* Buttons */
 header {
   color: #babdbe;
@@ -193,9 +195,53 @@ header .info_bar .info_right .fa-twitter {
   left: calc(50% - 100px);
   padding: 1rem;
   width: 230px;
+  z-index: 1;
 }
 .main_cards .circles i {
   font-size: 12px;
   margin: 0 0.3rem;
   opacity: 0.4;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+}
+.about .row {
+  display: flex;
+  justify-content: space-between;
+}
+.about .row .about_company {
+  padding: 5rem 3rem 5rem 0;
+}
+.about .row .about_company h2 {
+  font-size: 16px;
+  color: #51bdbc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.about .row .about_company h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 3rem 0;
+  color: #21333e;
+}
+.about .row .about_company h1 .title_first {
+  background-color: #daeced;
+  color: #038483;
+  padding: 0 0.8rem;
+  border-radius: 5px;
+}
+.about .row .about_company p {
+  color: #babdbe;
+  font-size: 19px;
+}
+.about .row img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 0;
+}
+.about img {
+  z-index: 2;
 }
