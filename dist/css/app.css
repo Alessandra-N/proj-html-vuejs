@@ -35,6 +35,8 @@ header .info_bar .info_right .fa-twitter {
   margin: auto;
   padding: 3rem 0;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 .jumbo .nav_main .img {
   position: absolute;
@@ -62,4 +64,29 @@ header .info_bar .info_right .fa-twitter {
   height: 50px;
   left: -35px;
   top: -5px;
+}
+.jumbo .nav_main .nav_main_right {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  color: #babdbe;
+}
+.jumbo .nav_main .nav_main_right .jumbo_links {
+  display: inline-block;
+}
+.jumbo .nav_main .nav_main_right .jumbo_links a {
+  color: #babdbe;
+  margin-left: 2rem;
+}
+.jumbo .nav_main .nav_main_right i {
+  margin: 0 2rem;
+}
+.jumbo .nav_main .nav_main_right button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #038483;
+  color: #e4eae6;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
 }

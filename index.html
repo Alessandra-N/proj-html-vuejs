@@ -16,62 +16,76 @@
 
     <body>
 
-        <header>
+        <div id="app">
 
-            <div class="info_bar">
-                <div class="info_left">
-                    <i class="fas fa-clock"></i>
-                    Open hours: Mon-Sat - 9:00 - 18:00
-                </div>
-                
-                <div class="info_right">
-                    <div class="info_phone">
-                        <i class="fas fa-phone-alt"></i>
-                        +1 (305) 1234-5678
+            <header>
+
+                <div class="info_bar">
+                    <div class="info_left">
+                        <i class="fas fa-clock"></i>
+                        Open hours: Mon-Sat - 9:00 - 18:00
                     </div>
                     
-                    <div class="info_email">
-                        <i class="fas fa-envelope"></i>
-                        hello@example.com
+                    <div class="info_right">
+                        <div class="info_phone">
+                            <i class="fas fa-phone-alt"></i>
+                            +1 (305) 1234-5678
+                        </div>
+                        
+                        <div class="info_email">
+                            <i class="fas fa-envelope"></i>
+                            hello@example.com
+                        </div>
+                        
+                        <div class="info_socials">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </header>
+    
+            <main>
+    
+                <section class="jumbo">
+                    <div class="jumbo_bg">
+                        <img src="./dist/img/bg-4.jpg" alt="">
                     </div>
                     
-                    <div class="info_socials">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                    </div>
-                </div>
-
-            </div>
-
-        </header>
-
-        <main>
-
-            <section class="jumbo">
-                <div class="jumbo_bg">
-                    <img src="./dist/img/bg-4.jpg" alt="">
-                </div>
-                
-
-                <div class="nav_main">
-
-                    <div class="nav_main_left">
     
-                        <div class="nex_bg"></div>
-                        <span class="nex">NEX</span>
-                        <span class="gen"> GEN</span>
-                    </div>
+                    <div class="nav_main">
     
-                    <div class="nac_main_right"></div>
-    
-                </div>
-
-            </section>
-            
-
-        </main>
+                        <div class="nav_main_left">
         
+                            <div class="nex_bg"></div>
+                            <span class="nex">NEX</span>
+                            <span class="gen"> GEN</span>
+                        </div>
+        
+                        <div class="nav_main_right">
+                            <div class="jumbo_links" v-for="jumboLink in jumboLinks">
+                                <a href="#">{{jumboLink}}</a>
+                            </div>
+                            <i class="far fa-user"></i>
+                            <button>Get in touch</button>
+                            
+                        </div>
+        
+                    </div>
+    
+                </section>
+    
+            </main>
+
+
+        </div>
+        
+        
+        <!-- Vue JS -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
         <!-- Javascript -->
         <script src="./dist/js/app.js"></script>
     </body>

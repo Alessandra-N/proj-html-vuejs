@@ -2,3 +2,8 @@
     width: 80%;
     margin: auto;
 }
+
+@mixin upper-bold {
+    text-transform: uppercase;
+    font-weight:600;
+}

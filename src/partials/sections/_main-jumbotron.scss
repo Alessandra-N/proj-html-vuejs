@@ -13,6 +13,8 @@
         @include center-section;
         padding: 3rem 0;
         position: relative;
+        display: flex;
+        justify-content: space-between;
         .img {
             position: absolute;
         }
@@ -40,6 +42,29 @@
                 top: -5px;
             }
             
+        }
+        .nav_main_right {
+            @include upper-bold;
+            font-size: 22px;
+            color: $silver-sand;
+            .jumbo_links {
+                display: inline-block;
+                a {
+                    color: $silver-sand;
+                    margin-left: 2rem;
+                }
+            }
+            i {
+                margin: 0 2rem;
+            }
+            button {
+                @include upper-bold;
+                background-color: $blue-lagoon;
+                color: $gray-nurse;
+                border: none;
+                border-radius: 5px;
+                padding: 0.5rem 1.5rem;
+            }
         }
     }
 
