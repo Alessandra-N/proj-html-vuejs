@@ -554,6 +554,9 @@ footer .footer_container .footer_left .footer_left_bottom .form-row .col {
   margin: 0;
   padding: 0;
 }
+footer .footer_container .footer_left .footer_left_bottom .form-row .first {
+  margin-right: 1rem;
+}
 footer .footer_container .footer_left .footer_left_bottom .form-row .form-control {
   background-color: #1d1d23;
   border: none;
