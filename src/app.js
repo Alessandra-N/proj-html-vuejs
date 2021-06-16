@@ -81,6 +81,34 @@ const app = new Vue ({
                 users: 0,
                 content: "Lorem ipsum dolor sit amet."
             }
+        ],
+
+        actions: [
+            {
+                position: "01",
+                title: "Collection of information",
+                paragraph: "Lorem ipsum dolor sit amet consectetur."
+            },
+            {
+                position: "02",
+                title: "Strategic planning",
+                paragraph: "Lorem ipsum dolor sit amet consectetur."
+            },
+            {
+                position: "03",
+                title: "Assignment of responsibilities",
+                paragraph: "Lorem ipsum dolor sit amet consectetur."
+            },
+            {
+                position: "04",
+                title: "Formatting process",
+                paragraph: "Lorem ipsum dolor sit amet consectetur."
+            },
+            {
+                position: "05",
+                title: "Continuity formalization",
+                paragraph: "Lorem ipsum dolor sit amet consectetur."
+            }
         ]
     },
 

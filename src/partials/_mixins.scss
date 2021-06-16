@@ -4,7 +4,7 @@
     margin: auto;
 }
 
-/* Luinks */
+/* Links */
 @mixin links {
     .nav_links {
         display: inline-block;
@@ -28,7 +28,7 @@
 }
 @mixin ebony-title {
     color: $ebony-clay;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 }
 @mixin white-title {
@@ -49,7 +49,7 @@
 }
 @mixin section-paragraph {
     color: $silver-sand;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 /* Buttons */
@@ -84,4 +84,10 @@
             opacity: 0.4;
         }
     }
+}
+
+@mixin rounded {
+    color: $blue-lagoon;
+    background-color: $light-blue;
+    border-radius: 50px;
 }

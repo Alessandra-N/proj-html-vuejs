@@ -1,0 +1,67 @@
+.process {
+    padding: 10rem 0;
+    position: relative;
+
+    .process_top {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        
+        h2 {
+            @include green-title;
+        }
+        h1 {
+            @include ebony-title;
+            @include section-title;
+            span {
+                @include section-title-first;
+            }
+        }
+        p {
+            @include section-paragraph;
+        }
+    }
+    .process_bottom {
+        
+        
+        .process_actions {
+            width: 90%;
+            margin: 3rem auto;
+            display: flex;
+            justify-content: space-around;
+
+            .process_action {
+                width: 12%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                .action_position {
+                    @include rounded;
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: 50px;
+                    padding: 10px;
+                }
+                h2 {
+                    @include ebony-title;
+                    margin: 1rem 0;
+                    font-weight: bold;
+                }
+                p {
+                    @include section-paragraph;
+                }
+                
+            }
+        }
+    }
+    .line {
+        position: absolute;
+        bottom: 44%;
+        z-index: -1;
+        height: 5px;
+        width: 100%;
+        background-color: $light-blue;
+    }
+}
