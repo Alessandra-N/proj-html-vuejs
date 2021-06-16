@@ -6,13 +6,12 @@
 
 /* Links */
 @mixin links {
-    .nav_links {
-        display: inline-block;
-        a {
-            color: $silver-sand;
-            margin-left: 2.5rem;
-        }
+    display: inline-block;
+    a {
+        color: $silver-sand;
+        margin-left: 2rem;
     }
+    
 }
 
 /* Texts */

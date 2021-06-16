@@ -37,10 +37,12 @@
         @include upper-bold;
         font-size: 22px;
         color: $silver-sand;
-        @include links;
+        .nav_links {
+           @include links;
+        }
         i {
             margin: 0 2rem;
-        }
+        } 
         button {
             @include upper-bold;
             @include get-in-touch;

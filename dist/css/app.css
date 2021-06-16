@@ -138,7 +138,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .jumbo_nav .nav_main_right .nav_links a {
   color: #babdbe;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
 }
 .jumbo_nav .nav_main_right i {
   margin: 0 2rem;
@@ -330,7 +330,13 @@ header .info_bar .info_right .fa-twitter {
 }
 .action .action_top .nav_links a {
   color: #babdbe;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
+}
+.action .action_top .nav_links :first-child {
+  padding: 0 0.5rem;
+  background-color: #143230;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 .action .action_gallery {
   width: 70%;
@@ -544,8 +550,9 @@ footer .footer_container .footer_left .footer_left_top p {
 footer .footer_container .footer_left .footer_left_bottom .form-row {
   margin: 1rem 0;
 }
-footer .footer_container .footer_left .footer_left_bottom .form-row textarea {
-  margin: 0.4rem;
+footer .footer_container .footer_left .footer_left_bottom .form-row .col {
+  margin: 0;
+  padding: 0;
 }
 footer .footer_container .footer_left .footer_left_bottom .form-row .form-control {
   background-color: #1d1d23;
@@ -559,6 +566,7 @@ footer .footer_container .footer_left .footer_left_bottom button {
   padding: 0.5rem 1.5rem;
   text-transform: uppercase;
   font-weight: 600;
+  margin-top: 1rem;
 }
 footer .footer_container .footer_right {
   width: 40%;

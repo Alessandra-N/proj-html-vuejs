@@ -13,7 +13,14 @@
                 @include section-title-dark;
             }
         }
-        @include links;
+        .nav_links {
+            @include links;
+            :first-child {
+                @include section-title-dark;
+                padding: 0.5rem;
+            }
+            
+        }
         @include upper-bold;
     }
     
