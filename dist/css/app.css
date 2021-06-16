@@ -442,3 +442,68 @@ header .info_bar .info_right .fa-twitter {
   width: 100%;
   background-color: #daeced;
 }
+
+.feedback {
+  padding: 10rem 0;
+  background-color: #e4eae6;
+}
+.feedback .feedback_top {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.feedback .feedback_top h2 {
+  font-size: 16px;
+  color: #51bdbc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.feedback .feedback_top h1 {
+  color: #24343c;
+  font-size: 22px;
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+.feedback .feedback_top h1 span {
+  background-color: #daeced;
+  color: #038483;
+  padding: 0 0.8rem;
+  border-radius: 5px;
+}
+.feedback .feedback_top p {
+  color: #babdbe;
+  font-size: 16px;
+}
+.feedback .feedback_bottom {
+  width: 80%;
+  margin: auto;
+}
+.feedback .feedback_bottom .feedback_cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.feedback .feedback_bottom .feedback_cards .feedback_card {
+  position: relative;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 32%;
+}
+.feedback .feedback_bottom .feedback_cards .feedback_card img {
+  margin-bottom: 1rem;
+}
+.feedback .feedback_bottom .feedback_cards .feedback_card p {
+  color: #babdbe;
+  font-size: 16px;
+}
+.feedback .feedback_bottom .feedback_cards .feedback_card i {
+  color: #babdbe;
+  font-size: 16px;
+  position: absolute;
+  font-size: 23px;
+  right: 1.5rem;
+  bottom: 2rem;
+}

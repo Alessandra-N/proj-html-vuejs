@@ -214,7 +214,32 @@
 
                 </section>
 
-                
+                <section class="feedback">
+                    <div class="feedback_top">
+                        <h2>customer testimonials</h2>
+                        <h1><span>Trusted</span> Feedback</h1>
+                        <p>We work extensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p>
+                    </div>
+
+                    <div class="feedback_bottom">
+                        <div class="feedback_cards">
+                            <div class="feedback_card" v-for="feedback in feedbacks">
+                                
+
+                                    <img :src="'./dist/img/logo' + feedback.link" alt="">
+                                    <p>{{feedback.paragraph}}</p>
+                                    <p>{{feedback.conclusions}}</p>
+
+                                
+
+                                <i class="fas fa-quote-right"></i>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
     
             </main>
 

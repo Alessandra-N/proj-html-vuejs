@@ -1,0 +1,56 @@
+.feedback {
+    padding: 10rem 0;
+    background-color: $gray-nurse;
+
+    .feedback_top {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        
+        h2 {
+            @include green-title;
+        }
+        h1 {
+            @include ebony-title;
+            @include section-title;
+            span {
+                @include section-title-first;
+            }
+        }
+        p {
+            @include section-paragraph;
+        }
+    }
+    .feedback_bottom {
+        @include center-section;
+
+        .feedback_cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5rem;
+            
+            .feedback_card {
+                position: relative;
+                background-color: $white;
+                padding: 2rem;
+                border-radius: 5px;
+                width: 32%;
+                img {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    @include section-paragraph;
+                }
+                i {
+                    @include section-paragraph;
+                    position: absolute;
+                    font-size: 23px;
+                    right: 1.5rem;
+                    bottom: 2rem;
+                }
+            }
+
+        }
+        
+    }
+}

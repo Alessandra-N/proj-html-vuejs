@@ -77,6 +77,19 @@ var app = new Vue({
       position: "05",
       title: "Continuity formalization",
       paragraph: "Lorem ipsum dolor sit amet consectetur."
+    }],
+    feedbacks: [{
+      link: "-1.png",
+      paragraph: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eveniet, vitae dolores fugit nihil at dolor adipisci dignissimos voluptas. Ea quia placeat mollitia ullam dolore?",
+      conclusions: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, expedita."
+    }, {
+      link: "-2.png",
+      paragraph: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eveniet, vitae dolores fugit nihil at dolor adipisci dignissimos voluptas. Ea quia placeat mollitia ullam dolore?",
+      conclusions: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, expedita."
+    }, {
+      link: "-3.png",
+      paragraph: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eveniet, vitae dolores fugit nihil at dolor adipisci dignissimos voluptas. Ea quia placeat mollitia ullam dolore?",
+      conclusions: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, expedita."
     }]
   }
 });
