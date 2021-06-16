@@ -39,10 +39,9 @@
 
                 .action_position {
                     @include rounded;
-                    font-size: 18px;
+                    color: $blue-lagoon;
+                    background-color: $light-blue;
                     font-weight: bold;
-                    width: 50px;
-                    padding: 10px;
                 }
                 h2 {
                     @include ebony-title;

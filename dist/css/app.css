@@ -169,9 +169,13 @@ header .info_bar .info_right .fa-twitter {
   border-radius: 10px;
 }
 .main_cards .cards_row .card i {
-  color: #038483;
-  background-color: #daeced;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
   font-size: 35px;
   padding: 1.2rem 1rem;
 }
@@ -401,13 +405,16 @@ header .info_bar .info_right .fa-twitter {
   text-align: center;
 }
 .process .process_bottom .process_actions .process_action .action_position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
   color: #038483;
   background-color: #daeced;
-  border-radius: 50px;
-  font-size: 18px;
   font-weight: bold;
-  width: 50px;
-  padding: 10px;
 }
 .process .process_bottom .process_actions .process_action h2 {
   color: #24343c;
@@ -501,6 +508,7 @@ footer {
 footer .footer_container {
   width: 80%;
   margin: auto;
+  display: flex;
 }
 footer .footer_container .footer_left {
   width: 60%;
@@ -537,6 +545,63 @@ footer .footer_container .footer_left .footer_left_bottom .form-row {
 footer .footer_container .footer_left .footer_left_bottom .form-row textarea {
   margin: 0.4rem;
 }
+footer .footer_container .footer_left .footer_left_bottom .form-row .form-control {
+  background-color: #202427;
+  border: none;
+}
+footer .footer_container .footer_left .footer_left_bottom button {
+  background-color: #038483;
+  color: #e4eae6;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 footer .footer_container .footer_right {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+footer .footer_container .footer_right h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+footer .footer_container .footer_right p {
+  color: #babdbe;
+  margin-bottom: 2rem;
+}
+footer .footer_container .footer_right .footer_contacts {
+  color: #038483;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+footer .footer_container .footer_right .footer_contacts .contact {
+  display: flex;
+  align-items: center;
+}
+footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  background-color: #143230;
+  margin: 0 1rem 1rem 0;
+}
+footer .footer_container .footer_right button {
+  background-color: transparent;
+  color: #e4eae6;
+  border: 1px solid #038483;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 180px;
 }

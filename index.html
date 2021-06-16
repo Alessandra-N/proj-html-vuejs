@@ -195,7 +195,9 @@
                     <div class="process_bottom">
                         <div class="process_actions">
                             <div class="process_action" v-for="action in actions">
-                                <div class="action_position">{{action.position}}</div>
+                                <div class="action_position">
+                                    <div class="position">{{action.position}}</div>
+                                </div>
                                 <h2>{{action.title}}</h2>
                                 <p>{{action.paragraph}}</p>
                                 
@@ -276,11 +278,41 @@
                                 </div>
                             </form>
 
+                            <button>send</button>
+
                         </div>
 
                     </div>
 
-                    <div class="footer_right"></div>
+                    <div class="footer_right">
+                        <h5>Example Inc.</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                    
+                        <div class="footer_contacts">
+                            <div class="contact">
+                                <div class="contact_icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                +1 (305) 1234-5678
+                            </div>
+                            <div class="contact">
+                                <div class="contact_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                hello@example.com
+                            </div>
+                            <div class="contact">
+                                <div class="contact_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                Main Avenue, 987
+                            </div>
+                        </div>
+
+                        <button>View Map</button>
+
+                    </div>
                 </div>
                 
 
