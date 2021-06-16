@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
     .nav_main_left {
         position: relative;
@@ -35,7 +36,7 @@
     }
     .nav_main_right {
         @include upper-bold;
-        font-size: 22px;
+        font-size: 16px;
         color: $silver-sand;
         .nav_links {
            @include links;

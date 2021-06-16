@@ -4,6 +4,8 @@
 /* Buttons */
 /* Decorations */
 body {
+  margin: auto;
+  min-width: 1400px;
   max-width: 1920px;
 }
 
@@ -12,7 +14,7 @@ header {
   background-color: #21333e;
 }
 header .info_bar {
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 1.5rem 0;
   display: flex;
@@ -35,7 +37,7 @@ header .info_bar .info_right .fa-twitter {
   width: 100%;
 }
 .jumbo .jumbo_main {
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 5rem 0 11rem;
 }
@@ -94,12 +96,13 @@ header .info_bar .info_right .fa-twitter {
 }
 
 .jumbo_nav {
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 3rem 0;
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .jumbo_nav .nav_main_left {
   position: relative;
@@ -130,7 +133,7 @@ header .info_bar .info_right .fa-twitter {
 .jumbo_nav .nav_main_right {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   color: #babdbe;
 }
 .jumbo_nav .nav_main_right .nav_links {
@@ -160,7 +163,7 @@ header .info_bar .info_right .fa-twitter {
   padding: 10rem 0;
 }
 .main_cards .cards_row {
-  width: 70%;
+  width: 75%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -339,7 +342,7 @@ header .info_bar .info_right .fa-twitter {
   padding: 0.5rem;
 }
 .action .action_gallery {
-  width: 70%;
+  width: 75%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -478,7 +481,7 @@ header .info_bar .info_right .fa-twitter {
   font-size: 16px;
 }
 .feedback .feedback_bottom {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 .feedback .feedback_bottom .feedback_cards {
@@ -514,7 +517,7 @@ footer {
   padding: 10rem 0;
 }
 footer .footer_container {
-  width: 70%;
+  width: 75%;
   margin: auto;
   display: flex;
 }
