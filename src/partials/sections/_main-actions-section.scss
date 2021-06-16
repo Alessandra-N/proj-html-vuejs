@@ -10,9 +10,7 @@
             @include section-title;
             color: $white;
             span {
-                padding: 0 0.5rem;
-                background-color: $dark-green;
-                border-radius: 5px;
+                @include section-title-dark;
             }
         }
         @include links;

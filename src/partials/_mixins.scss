@@ -47,6 +47,11 @@
     padding: 0 0.8rem;
     border-radius: 5px;
 }
+@mixin section-title-dark {
+    padding: 0 0.5rem;
+    background-color: $dark-green;
+    border-radius: 5px;
+}
 @mixin section-paragraph {
     color: $silver-sand;
     font-size: 16px;

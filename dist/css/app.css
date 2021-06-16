@@ -495,5 +495,48 @@ header .info_bar .info_right .fa-twitter {
 }
 
 footer {
-  background-color: #21333e;
+  background-color: #121117;
+  padding: 10rem 0;
+}
+footer .footer_container {
+  width: 80%;
+  margin: auto;
+}
+footer .footer_container .footer_left {
+  width: 60%;
+}
+footer .footer_container .footer_left .footer_left_top {
+  margin-bottom: 3rem;
+}
+footer .footer_container .footer_left .footer_left_top h2 {
+  font-size: 16px;
+  color: #51bdbc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer .footer_container .footer_left .footer_left_top h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+footer .footer_container .footer_left .footer_left_top h1 span {
+  padding: 0 0.5rem;
+  background-color: #143230;
+  border-radius: 5px;
+}
+footer .footer_container .footer_left .footer_left_top p {
+  color: #babdbe;
+  font-size: 16px;
+}
+footer .footer_container .footer_left .footer_left_bottom .form-row {
+  margin: 1rem 0;
+}
+footer .footer_container .footer_left .footer_left_bottom .form-row textarea {
+  margin: 0.4rem;
+}
+footer .footer_container .footer_right {
+  width: 40%;
 }

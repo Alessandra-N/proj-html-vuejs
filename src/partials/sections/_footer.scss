@@ -1,4 +1,42 @@
 footer {
-    background-color: $nav-blue;
+    background-color: $woodsmoke;
+    padding: 10rem 0;
 
+    .footer_container {
+        @include center-section;
+
+        .footer_left {
+            width: 60%;
+
+            .footer_left_top {
+                margin-bottom: 3rem;
+                h2 {
+                    @include green-title;
+                }
+                h1 {
+                    @include white-title;
+                    @include section-title;
+                    span {
+                        @include section-title-dark;
+                    }
+                }
+                p {
+                    @include section-paragraph;
+                }
+            }
+            .footer_left_bottom {
+                .form-row {
+                    margin: 1rem 0;
+                    textarea {
+                        margin: 0.4rem;
+                    }
+                }
+            }
+        }
+        .footer_right {
+            width: 40%;
+    
+        }
+    }
+    
 }
