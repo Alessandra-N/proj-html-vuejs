@@ -1,11 +1,10 @@
 .about {
-    @include center-section;
     position: relative;
-    .row {
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    height: 100vh;
         .about_company {
-            padding: 5rem 3rem 0 0;
+            padding: 10rem 2rem 5rem 15rem;
+            width: 50%;
             h2 {
                 @include green-title;
             }
@@ -53,13 +52,13 @@
             }
             
         }
+ 
+    .image {
+        background-image: url('/dist/img/about-5.jpg');
+        background-size: fill;
+        background-repeat: no-repeat;
+        width: 50%;
         
-    }
-    img {
-        width: 120%;
-        object-fit:contain;
-        position: absolute;
-        z-index: 0;
     }
     @include circles;    
 }

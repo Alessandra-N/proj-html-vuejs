@@ -52,9 +52,7 @@
     
                 <section class="jumbo">
 
-                    <div class="jumbo_bg">
-                        <img src="./dist/img/bg-4.jpg" alt="">
-                    </div>
+                    
     
                     <div class="jumbo_nav">
     
@@ -124,40 +122,35 @@
 
                 <section class="about">
 
-                    <div class="row">
+                    <div class="about_company">
+                           
+                        <h2>About the network</h2>
+                        <h1>
+                            <span class="title_first">The</span>
+                            Company
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut odit harum quasi dolorum dolor?</p>
 
-                        <div class="col-6 about_company">
-                            <h2>About the network</h2>
-                            <h1>
-                                <span class="title_first">The</span>
-                                Company
-                            </h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut odit harum quasi dolorum dolor?</p>
-
-                            <div class="counter">
-                                <div class="counter_box" v-for="subscriber in subscribers">
-                                    <div class="counter_number">
-                                        {{subscriber.users}}
-                                    </div>
-                                    <div class="counter_type">
-                                        {{subscriber.type}}
-                                    </div>
-                                    <p>{{subscriber.content}}</p>
+                        <div class="counter">
+                            <div class="counter_box" v-for="subscriber in subscribers">
+                                <div class="counter_number">
+                                    {{subscriber.users}}
                                 </div>
+                                <div class="counter_type">
+                                    {{subscriber.type}}
+                                </div>
+                                <p>{{subscriber.content}}</p>
                             </div>
-
-                            <div class="buttons">
-                                <button class="get_in_touch">get in touch</button>
-                                <button class="read_more">read more</button>
-                            </div>
-
                         </div>
-                        
-                        <div class="col-6 image">
-                            <img src="./dist/img/about-5.jpg" alt="">
+
+                        <div class="buttons">
+                            <button class="get_in_touch">get in touch</button>
+                            <button class="read_more">read more</button>
                         </div>
 
                     </div>
+
+                    <div class="image col-6"></div>
 
                     <div class="circles">
                         <i class="fas fa-circle" v-for="circle in 36"></i>
@@ -242,6 +235,10 @@
                 </section>
     
             </main>
+
+            <footer>
+
+            </footer>
 
 
         </div>

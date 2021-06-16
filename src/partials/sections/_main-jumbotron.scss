@@ -1,20 +1,13 @@
 
 .jumbo {
-    background-color: black;
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
+    url('/dist/img/bg-4.jpg');
+    background-size: cover;
     width: 100%;
-    .jumbo_bg {
-        position: relative;
-        opacity: 0.5;
-       img {
-           width: 100%;
-           object-fit:cover;
-           position: absolute;
-       }
-    }
     
     .jumbo_main {
         @include center-section;
-        position: relative;
         padding: 5rem 0 11rem;
         .jumbo_main_left {
             width: 50%;

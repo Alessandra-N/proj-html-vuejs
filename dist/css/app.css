@@ -30,23 +30,13 @@ header .info_bar .info_right .fa-twitter {
 }
 
 .jumbo {
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/bg-4.jpg");
+  background-size: cover;
   width: 100%;
-}
-.jumbo .jumbo_bg {
-  position: relative;
-  opacity: 0.5;
-}
-.jumbo .jumbo_bg img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
 }
 .jumbo .jumbo_main {
   width: 80%;
   margin: auto;
-  position: relative;
   padding: 5rem 0 11rem;
 }
 .jumbo .jumbo_main .jumbo_main_left {
@@ -211,61 +201,58 @@ header .info_bar .info_right .fa-twitter {
 }
 
 .about {
-  width: 80%;
-  margin: auto;
   position: relative;
-}
-.about .row {
   display: flex;
-  justify-content: space-between;
+  height: 100vh;
 }
-.about .row .about_company {
-  padding: 5rem 3rem 0 0;
+.about .about_company {
+  padding: 10rem 2rem 5rem 15rem;
+  width: 50%;
 }
-.about .row .about_company h2 {
+.about .about_company h2 {
   font-size: 16px;
   color: #51bdbc;
   text-transform: uppercase;
   font-weight: bold;
 }
-.about .row .about_company h1 {
+.about .about_company h1 {
   font-size: 50px;
   font-weight: bold;
   margin: 3rem 0;
   color: #21333e;
 }
-.about .row .about_company h1 .title_first {
+.about .about_company h1 .title_first {
   background-color: #daeced;
   color: #038483;
   padding: 0 0.8rem;
   border-radius: 5px;
 }
-.about .row .about_company p {
+.about .about_company p {
   color: #babdbe;
   font-size: 16px;
 }
-.about .row .about_company .counter {
+.about .about_company .counter {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
 }
-.about .row .about_company .counter .counter_box .counter_number {
+.about .about_company .counter .counter_box .counter_number {
   color: #038483;
   font-size: 50px;
   font-weight: bold;
   padding-left: 2.5rem;
 }
-.about .row .about_company .counter .counter_box .counter_type {
+.about .about_company .counter .counter_box .counter_type {
   color: #24343c;
   font-size: 22px;
   font-weight: bold;
   margin: 1rem 0;
 }
-.about .row .about_company .buttons {
+.about .about_company .buttons {
   display: flex;
   margin: 4rem 0 10rem;
 }
-.about .row .about_company .buttons :first-child {
+.about .about_company .buttons :first-child {
   background-color: #038483;
   color: #e4eae6;
   border: none;
@@ -275,7 +262,7 @@ header .info_bar .info_right .fa-twitter {
   font-weight: 600;
   margin-right: 1rem;
 }
-.about .row .about_company .buttons :nth-child(2) {
+.about .about_company .buttons :nth-child(2) {
   background-color: transparent;
   color: #e4eae6;
   border: 1px solid #038483;
@@ -285,12 +272,11 @@ header .info_bar .info_right .fa-twitter {
   font-weight: 600;
   color: #038483;
 }
-.about img {
-  width: 120%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  position: absolute;
-  z-index: 0;
+.about .image {
+  background-image: url("/dist/img/about-5.jpg");
+  background-size: fill;
+  background-repeat: no-repeat;
+  width: 50%;
 }
 .about .circles {
   position: absolute;
@@ -436,7 +422,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .process .line {
   position: absolute;
-  bottom: 44%;
+  bottom: 45%;
   z-index: -1;
   height: 5px;
   width: 100%;
@@ -506,4 +492,8 @@ header .info_bar .info_right .fa-twitter {
   font-size: 23px;
   right: 1.5rem;
   bottom: 2rem;
+}
+
+footer {
+  background-color: #21333e;
 }
