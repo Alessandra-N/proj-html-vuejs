@@ -7,10 +7,22 @@
     
     .nav_main_left {
         position: relative;
+        display: flex;
+        align-items: center;
+        .nex_bg {
+            background-color: $blue-lagoon;
+            border-radius: 20px 0 0 20px;
+            opacity: 0.3;
+            width: 90px;
+            height: 50px;
+        }
         .nex {
+            position: absolute;
             color: $fountain-blue;
             font-weight: bold;
             font-size: 25px;
+            top: 7px;
+            right: 60px
         }
         .gen {
             margin-left: 5px;
@@ -18,16 +30,7 @@
             font-weight: bold;
             font-size: 25px;
         }
-        .nex_bg {
-            position: absolute;
-            background-color: $blue-lagoon;
-            border-radius: 20px 0 0 20px;
-            opacity: 0.3;
-            width: 90px;
-            height: 50px;
-            left: -35px;
-            top: -5px;
-        }
+        
         
     }
     .nav_main_right {

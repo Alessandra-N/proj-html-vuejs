@@ -12,7 +12,7 @@ header {
   background-color: #21333e;
 }
 header .info_bar {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 1.5rem;
   display: flex;
@@ -35,7 +35,7 @@ header .info_bar .info_right .fa-twitter {
   width: 100%;
 }
 .jumbo .jumbo_main {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 5rem 0 11rem;
 }
@@ -94,7 +94,7 @@ header .info_bar .info_right .fa-twitter {
 }
 
 .jumbo_nav {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 3rem 0;
   position: relative;
@@ -103,27 +103,29 @@ header .info_bar .info_right .fa-twitter {
 }
 .jumbo_nav .nav_main_left {
   position: relative;
+  display: flex;
+  align-items: center;
+}
+.jumbo_nav .nav_main_left .nex_bg {
+  background-color: #038483;
+  border-radius: 20px 0 0 20px;
+  opacity: 0.3;
+  width: 90px;
+  height: 50px;
 }
 .jumbo_nav .nav_main_left .nex {
+  position: absolute;
   color: #51bdbc;
   font-weight: bold;
   font-size: 25px;
+  top: 7px;
+  right: 60px;
 }
 .jumbo_nav .nav_main_left .gen {
   margin-left: 5px;
   color: #babdbe;
   font-weight: bold;
   font-size: 25px;
-}
-.jumbo_nav .nav_main_left .nex_bg {
-  position: absolute;
-  background-color: #038483;
-  border-radius: 20px 0 0 20px;
-  opacity: 0.3;
-  width: 90px;
-  height: 50px;
-  left: -35px;
-  top: -5px;
 }
 .jumbo_nav .nav_main_right {
   text-transform: uppercase;
@@ -158,7 +160,7 @@ header .info_bar .info_right .fa-twitter {
   padding: 10rem 0;
 }
 .main_cards .cards_row {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -331,7 +333,7 @@ header .info_bar .info_right .fa-twitter {
   margin-left: 2.5rem;
 }
 .action .action_gallery {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -470,7 +472,7 @@ header .info_bar .info_right .fa-twitter {
   font-size: 16px;
 }
 .feedback .feedback_bottom {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .feedback .feedback_bottom .feedback_cards {
@@ -506,7 +508,7 @@ footer {
   padding: 10rem 0;
 }
 footer .footer_container {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
 }
@@ -546,7 +548,7 @@ footer .footer_container .footer_left .footer_left_bottom .form-row textarea {
   margin: 0.4rem;
 }
 footer .footer_container .footer_left .footer_left_bottom .form-row .form-control {
-  background-color: #202427;
+  background-color: #1d1d23;
   border: none;
 }
 footer .footer_container .footer_left .footer_left_bottom button {
