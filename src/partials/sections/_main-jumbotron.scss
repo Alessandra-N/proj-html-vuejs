@@ -1,10 +1,12 @@
 
 .jumbo {
-    background-image: 
-    linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
-    url('/dist/img/bg-4.jpg');
-    background-size: cover;
-    width: 100%;
+    position: relative;
+    background-color: black;
+    img{
+        position: absolute;
+        opacity: 0.5;
+        width: 100%;
+    }
     
     .jumbo_main {
         @include center-section;

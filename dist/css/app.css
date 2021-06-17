@@ -34,8 +34,12 @@ header .info_bar .info_right .fa-twitter {
 }
 
 .jumbo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/bg-4.jpg");
-  background-size: cover;
+  position: relative;
+  background-color: black;
+}
+.jumbo img {
+  position: absolute;
+  opacity: 0.5;
   width: 100%;
 }
 .jumbo .jumbo_main {
@@ -284,10 +288,11 @@ header .info_bar .info_right .fa-twitter {
   color: #038483;
 }
 .about .image {
-  background-image: url("/dist/img/about-5.jpg");
-  background-size: fill;
-  background-repeat: no-repeat;
   width: 50%;
+}
+.about .image img {
+  height: 100%;
+  width: 100%;
 }
 .about .circles {
   position: absolute;
