@@ -42,6 +42,9 @@
                     color: $blue-lagoon;
                     background-color: $light-blue;
                     font-weight: bold;
+                    width: 45px;
+                    height: 45px;
+                    font-size: 20px;
                 }
                 h2 {
                     @include ebony-title;

@@ -13,7 +13,11 @@
             border-radius: 10px;
             i {
                 @include rounded;
-                font-size: 35px;
+                background-color: $light-blue;
+                color: $blue-lagoon;
+                width: 60px;
+                height: 60px;
+                font-size: 24px;
                 padding: 1.2rem 1rem;
             }
             .card_title {

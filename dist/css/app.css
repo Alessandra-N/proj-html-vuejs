@@ -185,10 +185,11 @@ header .info_bar .info_right .fa-twitter {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
-  font-size: 35px;
+  background-color: #daeced;
+  color: #038483;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
   padding: 1.2rem 1rem;
 }
 .main_cards .cards_row .card .card_title {
@@ -429,12 +430,12 @@ header .info_bar .info_right .fa-twitter {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
   color: #038483;
   background-color: #daeced;
   font-weight: bold;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
 }
 .process .process_bottom .process_actions .process_action h2 {
   color: #24343c;
@@ -616,9 +617,6 @@ footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
   background-color: #0e272d;
   margin-right: 1rem;
 }
