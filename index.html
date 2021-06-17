@@ -16,8 +16,12 @@
 
     <body>
 
+        <!-- Tutto ciò che è qui dentro può essere manipolato attraverso
+            Vue JS -->
         <div id="app">
 
+            <!-- Header, contiene solo contatti e orari di apertura. Il CSS
+                fa riferimento a _header.scss -->
             <header>
 
                 <div class="info_bar">
@@ -49,11 +53,13 @@
             </header>
     
             <main>
-    
+                <!-- Sezione del jumbotron -->
                 <section class="jumbo">
 
-                    
-    
+                    <!-- Navbar del Jumbotron, comprende la riga con i link
+                        ed il logo dell'azienda. I link sono generati in Vue
+                        JS (jumboLinks). Il CSS fa riferimento a 
+                        _main-jumbotron-navbar -->
                     <div class="jumbo_nav">
     
                         <div class="nav_main_left">
@@ -76,6 +82,9 @@
         
                     </div>
 
+                    <!-- Parte principale del Jumbotron, comprende lo sfondo, 
+                        i titoli ed i bottoni per leggere più informazioni e per
+                        contattare l'azienda. Il CSS fa riferimento a _main-jumbotron -->
                     <div class="jumbo_main">
 
                         <div class="jumbo_main_left">
@@ -102,6 +111,10 @@
 
                 </section>
 
+                <!-- Sezione del main contenente tre carte e l'elemento decorativo
+                    dei cerchietti fra le pagine. Il contenuto delle carte ed i cerchi
+                    sono generati in Vue JS (i dati delle carte vanno inseriti in threeCards).
+                    Il CSS fa riferimento a _main-card-section -->
                 <section class="main_cards">
 
                     <div class="cards_row">
@@ -122,6 +135,11 @@
                     
                 </section>
 
+                <!-- Sezione del main contenente il contatore di impiegati, partners e 
+                    clienti, nonché l'elemento decorativo dei cerchietti fra le pagine,
+                    il tutto generato con Vue JS (i contatori sono in subscribers). 
+                    Anche qui ci sono i bottoni per leggere più informazioni e contattare
+                    l'azienda. Il CSS fa riferimento a _main-about-section -->
                 <section class="about">
 
                     <div class="about_company">
@@ -160,6 +178,10 @@
                     
                 </section>
 
+                <!-- Sezione del main contenente un nuovo menu di navigazione ed una 
+                    galleria di immagini, entrambi generati con VUE JS. Rispettivamente,
+                    vanno inseriti in actionLinks ed actionGallery. Il CSS fa riferimento 
+                    a _main-actions-section -->
                 <section class="action">
                     
                     <div class="action_top">
@@ -186,6 +208,9 @@
 
                 </section>
 
+                <!-- Sezione del main contenente la lista di azioni che è possibile compiere
+                    attraverso i servizi dell'azienda. Il tutto è generato attraverso VUE JS 
+                    e vanno inseriti in actions. Il CSS fa riferimento a _main-process-section. -->
                 <section class="process">
 
                     <div class="process_top">
@@ -211,6 +236,8 @@
 
                 </section>
 
+                <!-- Sezione contenente i feedback da tre fonti. Generati attraverso VUE JS,
+                    vanno inseriti in feedbacks. Il CSS fa riferimento a _main-feedback-section. -->
                 <section class="feedback">
                     <div class="feedback_top">
                         <h2>customer testimonials</h2>
@@ -240,8 +267,10 @@
     
             </main>
 
+            <!-- Il footer si divide in due sezioni, una contiene il form da inviare per 
+                contattare l'azienda, l'altra l'elenco dei contatti e la posizione della 
+                sede dell'azienda. Il CSS fa riferimento a _footer. -->
             <footer>
-
                 <div class="footer_container">
                     <div class="footer_left">
                         <div class="footer_left_top">
@@ -316,11 +345,15 @@
 
                     </div>
                 </div>
-                
-
-
             </footer>
 
+            <!-- Contiene le informazioni del copyright, il CSS fa riferimetno a _footer. -->
+            <div class="footer_bottom">
+                <div class="footer_copy">
+                    <div class="copyright_name">Lorem ipsum dolor sit amet.</div>
+                    <div class="copyright_data">Lorem ipsum dolor sit amet. <span>Lorem2</span></div>
+                </div>
+            </div>
 
         </div>
         

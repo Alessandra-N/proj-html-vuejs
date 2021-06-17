@@ -1,8 +1,10 @@
+@charset "UTF-8";
 /* Common */
 /* Links */
 /* Texts */
 /* Buttons */
 /* Decorations */
+/* Codice CSS che vale per tutto il documento */
 body {
   margin: auto;
   min-width: 1400px;
@@ -594,11 +596,12 @@ footer .footer_container .footer_right .footer_contacts {
   color: #038483;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 footer .footer_container .footer_right .footer_contacts .contact {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
   display: flex;
@@ -609,7 +612,7 @@ footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
   height: 45px;
   font-size: 20px;
   background-color: #143230;
-  margin: 0 1rem 1rem 0;
+  margin-right: 1rem;
 }
 footer .footer_container .footer_right button {
   background-color: transparent;
@@ -620,4 +623,23 @@ footer .footer_container .footer_right button {
   text-transform: uppercase;
   font-weight: 600;
   width: 180px;
+}
+
+.footer_bottom {
+  background-color: #0d0d11;
+  color: #babdbe;
+}
+.footer_bottom .footer_copy {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.footer_bottom .footer_copy span {
+  color: #038483;
+}
+.footer_bottom .footer_copy :before {
+  content: "©";
+  margin-right: 0.1rem;
 }

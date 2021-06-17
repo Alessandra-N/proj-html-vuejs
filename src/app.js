@@ -2,6 +2,7 @@ const app = new Vue ({
     el: "#app",
 
     data: {
+        /* Contiene i link della navbar del Jumbotron, nella sezione "Jumbo/jumbo_nav" */
         jumboLinks: [
             "Home", 
             "About", 
@@ -10,6 +11,7 @@ const app = new Vue ({
             "Testimonials",
         ],
 
+        /* Contiene i link della navbar della sezione "action" dell'HTML */
         actionLinks:[
             "All",
             "Institutional",
@@ -20,6 +22,7 @@ const app = new Vue ({
             "technology",
         ],
 
+        /* Contiene le immagini e i testi della gallery nella sezione "action" dell'HTML. */
         actionGallery: [
             {
                 picLink: "1.jpg",
@@ -47,6 +50,7 @@ const app = new Vue ({
             }
         ],
 
+        /* il contenuto delle carte nella sezione "main_cards" dell'HTML */
         threeCards: [
             {
                 img: "fas fa-user-friends",
@@ -65,6 +69,7 @@ const app = new Vue ({
             }
         ],
 
+        /* il contenuto dei contatori nella sezione "about" dell'HTML */
         subscribers: [
             {
                 type: "Employees",
@@ -83,6 +88,7 @@ const app = new Vue ({
             }
         ],
 
+        /* il contenuto dei blocchi di informazione sulle azioni descritte nella sezione "process" dell'HTML */
         actions: [
             {
                 position: "01",
@@ -111,6 +117,7 @@ const app = new Vue ({
             }
         ],
 
+        /* il contenuto delle cards con i feedback di alcune fonti, nella sezione "feedback" dell'HTML */
         feedbacks: [
             {
                 link: "-1.png",

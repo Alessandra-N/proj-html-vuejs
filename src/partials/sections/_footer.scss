@@ -64,14 +64,15 @@ footer {
                 color: $blue-lagoon;
                 display: flex;
                 flex-direction: column;
-                margin-bottom: 2rem;
+                margin-bottom: 1rem;
                 .contact {
                     display: flex;
                     align-items: center;
+                    margin-bottom: 1rem;
                     .contact_icon {
                         @include rounded;
                         background-color: $dark-green;
-                        margin: 0 1rem 1rem 0;
+                        margin-right: 1rem;
                     }
                 }
                 
@@ -84,5 +85,21 @@ footer {
             }
         }
     }
-    
+}
+.footer_bottom {
+    background-color: $dark-bottom;
+    color: $silver-sand;
+    .footer_copy {
+        @include center-section;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        span {
+            color: $blue-lagoon;
+        }
+        :before {
+            content: "\00a9";
+            margin-right: 0.1rem;
+        }
+    }
 }
