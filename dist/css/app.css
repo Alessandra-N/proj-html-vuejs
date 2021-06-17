@@ -152,6 +152,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .jumbo_nav .nav_main_right i {
   margin: 0 2rem;
+  font-size: 22px;
 }
 .jumbo_nav .nav_main_right button {
   text-transform: uppercase;
