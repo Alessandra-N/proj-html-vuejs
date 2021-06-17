@@ -16,6 +16,7 @@
         }
         .nav_links {
             @include links;
+            margin-bottom: 2rem;
             :first-child {
                 @include section-title-dark;
                 padding: 0.5rem;

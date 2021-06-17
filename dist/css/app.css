@@ -341,6 +341,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .action .action_top .nav_links {
   display: inline-block;
+  margin-bottom: 2rem;
 }
 .action .action_top .nav_links a {
   color: #babdbe;
