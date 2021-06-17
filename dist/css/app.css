@@ -135,7 +135,6 @@ header .info_bar .info_right .fa-twitter {
 .jumbo_nav .nav_main_right {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 16px;
   color: #babdbe;
 }
 .jumbo_nav .nav_main_right .nav_links {
@@ -144,6 +143,7 @@ header .info_bar .info_right .fa-twitter {
 .jumbo_nav .nav_main_right .nav_links a {
   color: #babdbe;
   margin-left: 2rem;
+  font-size: 20px;
 }
 .jumbo_nav .nav_main_right i {
   margin: 0 2rem;
@@ -336,6 +336,7 @@ header .info_bar .info_right .fa-twitter {
 .action .action_top .nav_links a {
   color: #babdbe;
   margin-left: 2rem;
+  font-size: 20px;
 }
 .action .action_top .nav_links :first-child {
   padding: 0 0.5rem;
