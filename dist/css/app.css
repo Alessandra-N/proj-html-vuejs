@@ -517,6 +517,7 @@ header .info_bar .info_right .fa-twitter {
 .feedback .feedback_bottom .feedback_cards .feedback_card i {
   color: gray;
   font-size: 16px;
+  color: lightgray;
   position: absolute;
   font-size: 23px;
   right: 1.5rem;
