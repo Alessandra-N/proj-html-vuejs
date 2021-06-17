@@ -1,6 +1,6 @@
 /* Common */
 @mixin center-section {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -83,7 +83,7 @@
         position: absolute;
         color: $blue-lagoon;
         bottom: -61px;
-        left: calc(50% - 100px);
+        left: calc(50% - 112px);
         padding: 1rem;
         width: 230px;
         z-index: 1;
