@@ -13,6 +13,7 @@
         h1 {
             @include ebony-title;
             @include section-title;
+            margin: 2rem 0;
             span {
                 @include section-title-first;
                 background-color: $light-green;
@@ -29,7 +30,7 @@
         .feedback_cards {
             display: flex;
             justify-content: space-between;
-            margin-top: 5rem;
+            margin-top: 4rem;
             
             .feedback_card {
                 position: relative;

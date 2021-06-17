@@ -9,6 +9,7 @@
         h1 {
             @include section-title;
             color: $white;
+            margin: 2rem 0 4rem;
             span {
                 @include section-title-dark;
             }
@@ -31,7 +32,7 @@
         align-items: center;
         flex-wrap: wrap;
         :nth-child(2), :nth-child(5) {
-            margin: 2rem;
+            margin: 1rem 2rem;
         }
         .action_picture {
             position: relative;

@@ -237,6 +237,7 @@ header .info_bar .info_right .fa-twitter {
   font-weight: bold;
   margin: 3rem 0;
   color: #21333e;
+  margin: 2rem 0;
 }
 .about .about_company h1 .title_first {
   background-color: #daeced;
@@ -267,7 +268,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .about .about_company .buttons {
   display: flex;
-  margin: 4rem 0 10rem;
+  margin: 3rem 0 10rem;
 }
 .about .about_company .buttons :first-child {
   background-color: #038483;
@@ -331,6 +332,7 @@ header .info_bar .info_right .fa-twitter {
   font-weight: bold;
   margin: 3rem 0;
   color: #ffffff;
+  margin: 2rem 0 4rem;
 }
 .action .action_top h1 span {
   padding: 0 0.5rem;
@@ -360,7 +362,7 @@ header .info_bar .info_right .fa-twitter {
   flex-wrap: wrap;
 }
 .action .action_gallery :nth-child(2), .action .action_gallery :nth-child(5) {
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 .action .action_gallery .action_picture {
   position: relative;
@@ -401,6 +403,7 @@ header .info_bar .info_right .fa-twitter {
   font-size: 50px;
   font-weight: bold;
   margin: 3rem 0;
+  margin: 2rem 0;
 }
 .process .process_top h1 span {
   background-color: #daeced;
@@ -479,6 +482,7 @@ header .info_bar .info_right .fa-twitter {
   font-size: 50px;
   font-weight: bold;
   margin: 3rem 0;
+  margin: 2rem 0;
 }
 .feedback .feedback_top h1 span {
   background-color: #daeced;
@@ -498,7 +502,7 @@ header .info_bar .info_right .fa-twitter {
 .feedback .feedback_bottom .feedback_cards {
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .feedback .feedback_bottom .feedback_cards .feedback_card {
   position: relative;
@@ -552,7 +556,7 @@ footer .footer_container .footer_left .footer_left_top h1 {
   font-size: 50px;
   font-weight: bold;
   margin: 3rem 0;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 footer .footer_container .footer_left .footer_left_top h1 span {
   padding: 0 0.5rem;
@@ -597,17 +601,17 @@ footer .footer_container .footer_right h5 {
   font-size: 25px;
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 2rem;
 }
 footer .footer_container .footer_right p {
   color: #babdbe;
   margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 footer .footer_container .footer_right .footer_contacts {
   color: #038483;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 footer .footer_container .footer_right .footer_contacts .contact {
   display: flex;
