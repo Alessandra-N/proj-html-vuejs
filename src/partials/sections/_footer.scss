@@ -22,7 +22,7 @@ footer {
                     }
                 }
                 p {
-                    @include section-paragraph;
+                    @include footer-paragraph;
                 }
             }
             .footer_left_bottom {
@@ -57,8 +57,7 @@ footer {
                 margin-bottom: 2rem;
             }
             p {
-                color: $silver-sand;
-                margin-bottom: 2rem;
+                @include footer-paragraph;
             }
             .footer_contacts {
                 color: $blue-lagoon;

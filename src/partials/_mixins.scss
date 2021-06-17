@@ -52,8 +52,12 @@
     border-radius: 5px;
 }
 @mixin section-paragraph {
-    color: $silver-sand;
+    color: gray;
     font-size: 16px;
+}
+@mixin footer-paragraph {
+    color: $silver-sand;
+    margin-bottom: 2rem;
 }
 
 /* Buttons */
