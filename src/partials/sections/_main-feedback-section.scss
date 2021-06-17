@@ -15,6 +15,8 @@
             @include section-title;
             span {
                 @include section-title-first;
+                background-color: $light-green;
+                
             }
         }
         p {

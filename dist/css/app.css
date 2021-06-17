@@ -327,7 +327,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .action .action_top h1 span {
   padding: 0 0.5rem;
-  background-color: #143230;
+  background-color: #0e272d;
   border-radius: 5px;
 }
 .action .action_top .nav_links {
@@ -339,7 +339,7 @@ header .info_bar .info_right .fa-twitter {
 }
 .action .action_top .nav_links :first-child {
   padding: 0 0.5rem;
-  background-color: #143230;
+  background-color: #0e272d;
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -477,6 +477,7 @@ header .info_bar .info_right .fa-twitter {
   color: #038483;
   padding: 0 0.8rem;
   border-radius: 5px;
+  background-color: #cce3de;
 }
 .feedback .feedback_top p {
   color: #babdbe;
@@ -545,7 +546,7 @@ footer .footer_container .footer_left .footer_left_top h1 {
 }
 footer .footer_container .footer_left .footer_left_top h1 span {
   padding: 0 0.5rem;
-  background-color: #143230;
+  background-color: #0e272d;
   border-radius: 5px;
 }
 footer .footer_container .footer_left .footer_left_top p {
@@ -611,7 +612,7 @@ footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
   width: 45px;
   height: 45px;
   font-size: 20px;
-  background-color: #143230;
+  background-color: #0e272d;
   margin-right: 1rem;
 }
 footer .footer_container .footer_right button {
