@@ -71,6 +71,9 @@ footer {
                     .contact_icon {
                         @include rounded;
                         background-color: $dark-green;
+                        width: 45px;
+                        height: 45px;
+                        font-size: 20px;
                         margin-right: 1rem;
                     }
                 }

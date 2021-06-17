@@ -618,6 +618,9 @@ footer .footer_container .footer_right .footer_contacts .contact .contact_icon {
   align-items: center;
   border-radius: 50px;
   background-color: #0e272d;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
   margin-right: 1rem;
 }
 footer .footer_container .footer_right button {
