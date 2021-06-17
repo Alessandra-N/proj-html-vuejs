@@ -11,6 +11,7 @@
     .jumbo_main {
         @include center-section;
         padding: 5rem 0 11rem;
+        position: relative;
         .jumbo_main_left {
             width: 50%;
             .jumbo_sub {

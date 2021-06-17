@@ -46,6 +46,7 @@ header .info_bar .info_right .fa-twitter {
   width: 75%;
   margin: auto;
   padding: 5rem 0 11rem;
+  position: relative;
 }
 .jumbo .jumbo_main .jumbo_main_left {
   width: 50%;
