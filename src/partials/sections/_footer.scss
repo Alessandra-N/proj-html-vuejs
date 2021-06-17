@@ -17,6 +17,7 @@ footer {
                 h1 {
                     @include white-title;
                     @include section-title;
+                    margin-bottom: 2rem;
                     span {
                         @include section-title-dark;
                     }
